@@ -205,3 +205,69 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+Icon?
+
+# Editor/IDE
+.vscode/
+*.code-workspace
+.idea/
+
+# Temp files
+*~
+*.swp
+*.swo
+*.swx
+*.tmp
+*.temp
+*.bak
+*.old
+nohup.out
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Virtual envs
+venv/
+.venv/
+env/
+.conda/
+
+# ML experiment outputs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+outputs/
+checkpoints/
+checkpoint/
+
+# Large model artifacts (optional: prefer ignore by directory instead)
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Caches (HF/others)
+.cache/
+**/.cache/
